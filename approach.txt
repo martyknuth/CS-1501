@@ -1,0 +1,20 @@
+To keep track of words the user has inputed, I created a new DLB Trie called a frequencyTrie.
+A frequencyTrie stores the frequency of a word in the terminator node.
+Every time a user inputs a new letter, the frequencyTrie is searched as well.
+The frequencyTrie search will return an array with:
+	- all words with that prefix
+	- the frequency of that word concatenated to the end of the word like:
+		- "word$4"
+		Where "word" is the string and 4 is the number of times the user has inputed word
+
+the list of words from the frequencyTrie is then sorted based on the frequency of the word
+two arrays are now created:
+	- array with at most 5 suggestions from the dictionary DLB Trie
+	- array with the previous words the user has inputed with the correct prefix sorted by frequency
+
+these arrays are combined into one and outputted to the user :)
+
+by using two different DLB Tries to do both searchs I saved a lot of run time than storage and retrival methods.
+
+the only costly run time decision i made was to use bubble sort to sort the array returned by frequencyTrie.
+I did this because it was stable so the most previous word will take precendence when the frequencies are the same.

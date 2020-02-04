@@ -1,0 +1,56 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name: Martin Knuth
+
+Lecture section: Monday-Wednesday 3:00-4:15
+
+Recitation day and time: 12:00 on Friday
+
+Assignment #: 1
+
+Program due date: Feburary 4th
+
+Handed in date:  January 31st
+
+Source code file name(s):
+ac_test.java
+Dlb_Trie.java
+FreqNode.java
+FrequencyTrie.java
+Node.java
+
+
+
+
+
+Other file name(s) (if relevant):
+approach.txt
+user_history.txt will be generated when the program is done running
+
+
+
+Does your program run without error?:
+Yes
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+
+
+
+
+
+
+
